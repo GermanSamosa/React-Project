@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Body from '../components/body'
 
 export default function Document() {
   return (

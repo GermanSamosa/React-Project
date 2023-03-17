@@ -50,4 +50,9 @@
   .lightText {
     color: #666;
   }
+
+  .popIt{
+    background-color: yellow;
+    text-align: center;
+  }
   
