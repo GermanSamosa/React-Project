@@ -6,7 +6,7 @@ type Props = {
 };
 
 export default function background({ children }: Props) {
-  const [bgColour, setBgColour] = useState('#ffffff');
+  const [bgColour, setBgColour] = useState('#0000');
 
   //test
   const [showColorPicker, setShowColorPicker] = useState(false);
@@ -21,7 +21,7 @@ export default function background({ children }: Props) {
         console.log('Button clicked');
         setShowColorPicker(!showColorPicker);
       }}>
-        Pick a color
+        Mine ruin the look of the page, but you can change the background color here :)
       </button>
       {showColorPicker && <ChromePicker color={bgColour} onChange={handleChange} />}
       <div>{children}</div>
